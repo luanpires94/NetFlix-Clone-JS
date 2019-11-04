@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+a{
+    padding: 10px;
+}
+
+.image__logo{
+    width: 140px;
+    margin: 20px 0 0 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image__search, .image__notify, .image__avatar{
+    height: 50px;
+}
+
+.interaction{
+    display: flex;
+}
+
+span{
+    font-size: 50px;
+    transform: rotateX(10deg);
+}
