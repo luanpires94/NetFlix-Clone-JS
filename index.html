@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +9,27 @@
 </head>
 <body>
     <header>
-        <img class="image__logo" src="assets/images.png" alt="logo">
-        <nav>
-            <a href="#"><li>Início</li></a>
-            <a href="#"><li>Séries</li></a>
-            <a href="#"><li>Filmes</li></a>
-            <a href="#"><li>Adicionados Recentemente</li></a>
-            <a href="#"><li>Minha lista</li></a>
-        </nav>
+        <div class="block__nav">
+            <img class="image__logo" src="assets/logo.svg" alt="logo">
+            <nav>
+                <a href="#"><li>Start</li></a>
+                <a href="#"><li>Series</li></a>
+                <a href="#"><li>Movies</li></a>
+                <a href="#"><li>Recently Added</li></a>
+                <a href="#"><li>My list</li></a>
+            </nav>
+        </div>
         <div class="interaction">
-            <img class="image__search" src="assets/search.png" alt="search">
-            <p>ADULTO</p>
+            <img class="image__search" src="assets/search.png" alt="search" onclick="search()">
+            <input type="text" placeholder="Títulos,Gênero ...">
+            <p class="paragraph">ADULT</p>
             <img class="image__notify" src="assets/notify.png" alt="notify">
-            <div>
+            <div class="block__infos">
                 <img class="image__avatar" src="assets/avatar1.png" alt="avatar">
-                <span>&#10151;</span>
+                <p>&#10151;</p>
             </div>
         </div>
     </header>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -7,32 +7,61 @@
 
 nav{
     display: flex;
-    padding: 20px 0 0 0;
+}
+
+
+.block__nav{
+    display: flex;
+    width: 70vw;
 }
 
 a{
     padding: 10px;
+    color: white;
 }
 
 .image__logo{
-    width: 140px;
-    margin: 20px 0 0 20px;
+    width: 120px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px;
 }
 
 .image__search, .image__notify, .image__avatar{
-    height: 50px;
+    height: 40px;
 }
 
 .interaction{
     display: flex;
+    align-items: center;
+}
+.block__infos{
+    display: flex;
+    align-items: center;
+}
+.block__infos p{
+    font-size: 30px;
+    transform: rotate(90deg);
+    color: white;
 }
 
-span{
-    font-size: 50px;
-    transform: rotateX(10deg);
+.paragraph{
+    color: white;
+}
+
+input{
+    display: none;
+    border: none;
+    outline: none;
+    background: #000;
+}
+
+.block__interaction{
+    display: flex;
+    width: 50px;
 }
