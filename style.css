@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    color: white;
 }
 /* HEADER */
 nav{
@@ -17,7 +18,6 @@ nav{
 
 a{
     padding: 10px;
-    color: white;
 }
 
 .image__logo{
@@ -46,11 +46,6 @@ header{
 .block__infos p{
     font-size: 30px;
     transform: rotate(90deg);
-    color: white;
-}
-
-.paragraph{
-    color: white;
 }
 
 input{
@@ -58,7 +53,6 @@ input{
     border: none;
     outline: none;
     background: #000;
-    color: white;
 }
 
 .block__interaction{
@@ -76,13 +70,12 @@ input{
 .block__image{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/imgmain.jpeg);
+    background-image: url(assets/imgmain.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 button{
-    color: white;
     background: #00000080;
     font-size: 20px;
     padding: 1rem 1rem;
@@ -90,7 +83,6 @@ button{
 }
 
 .main__title{
-    color:white;
     padding: 5%;
     font-size: 70px;
     width: 27rem;
@@ -98,12 +90,28 @@ button{
 }
 
 .main__subtitle{
-    color:white;
     width: 40rem;
     padding: 20px;
 }
 
 .buttons__block{
     padding: 20px;
+}
+
+.block__title{
+    margin: 29px 0 0 0;
+}
+
+
+.block__popular{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.block__recommended{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 /* MAIN */
