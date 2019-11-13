@@ -67,6 +67,10 @@ input{
 
 /* MAIN */
 
+main{
+    background: black;
+}
+
 .block__image{
     width: 100%;
     height: 100vh;
@@ -99,19 +103,15 @@ button{
 }
 
 .block__title{
-    margin: 29px 0 0 0;
+    margin: 20px 0 0 0;
+    font-size: 2em;
 }
 
 
-.block__popular{
+.block__popular, .block__recommended, .block__movies{
     display: flex;
     width: 100%;
     overflow: hidden;
 }
 
-.block__recommended{
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-}
 /* MAIN */
