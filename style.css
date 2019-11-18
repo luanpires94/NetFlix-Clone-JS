@@ -114,4 +114,9 @@ button{
     overflow: hidden;
 }
 
+.block__popular--slide ,.block__recommended--slide ,.block__movies--slide{
+    display: none;
+    width: 100%;
+}
+
 /* MAIN */
