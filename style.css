@@ -35,7 +35,7 @@ header{
 }
 
 .image__search, .image__notify, .image__avatar{
-    height: 40px;
+    height: 35px;
 }
 
 .interaction, .block__infos{
@@ -63,7 +63,7 @@ input{
 .interaction__box{
     display: flex;
 }
-/* HEADER */
+/* FIM DO HEADER */
 
 /* MAIN */
 
@@ -74,7 +74,7 @@ main{
 .block__image{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/imgmain.webp);
+    background-image: url(assets/theend.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,6 +84,10 @@ button{
     font-size: 20px;
     padding: 1rem 1rem;
     border: none;
+}
+
+button:hover{
+    background: red;
 }
 
 .main__title{
@@ -103,20 +107,36 @@ button{
 }
 
 .block__title{
-    margin: 20px 0 0 0;
     font-size: 2em;
 }
 
 
-.block__popular, .block__recommended, .block__movies{
+.block__series, .block__movies, .block__recently, .block__mylist{
     display: flex;
     width: 100%;
     overflow: hidden;
+    justify-content: space-around;
 }
 
-.block__popular--slide ,.block__recommended--slide ,.block__movies--slide{
+.setadireita__slide1 , .setadireita__slide2, .setadireita__slide3,.setadireita__slide4 , .setaesquerda__slide1 , .setaesquerda__slide2 , .setaesquerda__slide3 , .setaesquerda__slide4{
+    font-size: 80px;
+    margin: 20px 0 0 0;
+}
+
+.block__series--slide ,.block__movies--slide , .block__recently--slide, .block__mylist--slide{
     display: none;
     width: 100%;
+    justify-content: space-around;
 }
 
-/* MAIN */
+/* FIM DA MAIN */
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background: black;
+    justify-content: space-around;
+}
+
+/* FIM DO FOOTER */
