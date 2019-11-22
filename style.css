@@ -35,7 +35,7 @@ header{
 }
 
 .image__search, .image__notify, .image__avatar{
-    height: 35px;
+    height: 30px;
 }
 
 .interaction, .block__infos{
@@ -81,13 +81,14 @@ main{
 
 button{
     background: #00000080;
-    font-size: 20px;
+    font-size: 15px;
     padding: 1rem 1rem;
     border: none;
 }
 
 button:hover{
-    background: red;
+    background: white;
+    color: black;
 }
 
 .main__title{
@@ -134,9 +135,10 @@ button:hover{
 /* FOOTER */
 
 footer{
-    display: flex;
     background: black;
-    justify-content: space-around;
 }
-
+.img__social{
+    width: 50px;
+    margin: 40px 0 0 0;
+}
 /* FIM DO FOOTER */
