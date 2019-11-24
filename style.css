@@ -5,6 +5,7 @@
     text-decoration: none;
     color: white;
 }
+
 /* HEADER */
 nav{
     display: flex;
@@ -69,6 +70,7 @@ input{
 
 main{
     background: black;
+    width: 100%;
 }
 
 .block__image{
@@ -111,11 +113,9 @@ button:hover{
     font-size: 2em;
 }
 
-
 .block__series, .block__movies, .block__recently, .block__mylist{
     display: flex;
     width: 100%;
-    overflow: hidden;
     justify-content: space-around;
 }
 
@@ -137,8 +137,24 @@ button:hover{
 footer{
     background: black;
 }
+
 .img__social{
     width: 50px;
     margin: 40px 0 0 0;
 }
+
+.block__footer{
+    display: flex;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.block__footer--size{
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    flex-direction: column;
+    width: 25%;
+}
+
 /* FIM DO FOOTER */
